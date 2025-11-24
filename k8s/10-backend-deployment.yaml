@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/icollett/module_6_part3-backend:f012c725589a8fd52a178778b427b5673bb3f663
+          image: ghcr.io/icollett/module_6_part3-backend:55f7245ed634e7bf0ed8b166884276ff37a1dd02
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

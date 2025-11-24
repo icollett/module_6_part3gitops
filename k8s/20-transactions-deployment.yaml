@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/icollett/module_6_part3-transactions:f012c725589a8fd52a178778b427b5673bb3f663
+          image: ghcr.io/icollett/module_6_part3-transactions:55f7245ed634e7bf0ed8b166884276ff37a1dd02
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

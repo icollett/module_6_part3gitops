@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/icollett/module_6_part3-studentportfolio:55f7245ed634e7bf0ed8b166884276ff37a1dd02
+          image: ghcr.io/icollett/module_6_part3-studentportfolio:32fac816a329616a0708d3ebba817a150ba002c9
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
